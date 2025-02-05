@@ -1,9 +1,12 @@
 var express = require('express');
+
 const db = require("./dbConnection");
 const app = express();
+
 const PORT = process.env.PORT || 3000;
 const RSA_PRIVATE_KEY = process.env.RSA_PRIVATE_KEY;
 const expirationInMinutes = 15;
+
 app.route('/login').post(loginRoute)
 app.route('/technologies')
     .get(getTechnologies)
