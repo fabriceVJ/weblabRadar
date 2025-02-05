@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/null/weblabRadar/issues"
   },
-  "homepage": "https://github.com/null/weblabRadar#readme"
+  "homepage": "https://github.com/null/weblabRadar#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "mongodb": "^6.13.0"
+  }
 }
