@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Server for weblab radar application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/null/weblabRadar.git"
+  },
+  "author": "Fabrice von Jüchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/null/weblabRadar/issues"
+  },
+  "homepage": "https://github.com/null/weblabRadar#readme"
+}
