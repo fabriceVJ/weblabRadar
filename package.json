@@ -1,0 +1,28 @@
+{
+  "name": "weblab",
+  "version": "1.0.0",
+  "description": "--- Das Projekt folgt dem [Projektbeschrieb](https://github.com/web-programming-lab/web-programming-lab-projekt/blob/main/README.md),  bereitgestellt von den Modulverantwortlichen.",
+  "workspaces": [
+    "frontend, backend, db"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"npm run start:db\" \"npm run start:frontend\" \"npm run start:backend\"",
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "node backend/index.js",
+    "start:db": "docker-compose -f db/docker-compose.yml --env-file .env up --detach"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/null/weblabRadar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/null/weblabRadar/issues"
+  },
+  "homepage": "https://github.com/null/weblabRadar#readme",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

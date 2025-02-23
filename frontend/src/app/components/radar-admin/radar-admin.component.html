@@ -1,0 +1,13 @@
+<ul>
+  <li *ngFor="let tech of technologies" style="margin-bottom: 1rem;">
+    <div><strong>ID:</strong> {{ tech._id }}</div>
+    <div><strong>Name:</strong> {{ tech.name }}</div>
+    <div><strong>Category:</strong> {{ tech.category }}</div>
+    <div><strong>Ring:</strong> {{ tech.ring }}</div>
+    <div><strong>Description (Tech):</strong> {{ tech.descriptionTechnology }}</div>
+    <div><strong>Description (Ring):</strong> {{ tech.descriptionOnRing }}</div>
+    <button>Edit</button>
+  </li>
+</ul>
+<button>New</button>
+<button> logout</button>

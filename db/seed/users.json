@@ -1,0 +1,15 @@
+{
+  "username": "test1",
+  "password": "1234",
+  "role": "employee"
+}
+{
+  "username": "user@gmail.com",
+  "password": "$2b$10$vcgsi0MW1u1.GDaCK5VTqugeVIbrvyYgDaMyVND86zSWHM.3.W6fW",
+  "role": "employee"
+}
+{
+  "username": "admin@admin.com",
+  "password": "$2b$10$iD9jEDFDgmniL/Ny4XvAj.FzFMoe4RQRtsJgYlb.dVHxnwgja4Pbm",
+  "role": "admin"
+}

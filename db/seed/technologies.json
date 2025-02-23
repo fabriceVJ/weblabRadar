@@ -1,0 +1,27 @@
+{
+  "name":"testTech",
+  "ring": "Trial",
+  "category": "Tools",
+  "descriptionTechnology": "this is a description of the technology",
+  "descriptionOnRing": "this is a description on why this caterogy was chosen for this technology",
+  "publishDate": "2025.02.15",
+  "datesEdited": []
+}
+{
+  "name":"testTech2",
+  "ring": "Adopt",
+  "category": "Platforms",
+  "descriptionTechnology": "this is a description of the technology",
+  "descriptionOnRing": "this is a description on why this caterogy was chosen for this technology",
+  "publishDate": "2025.02.16",
+  "datesEdited": []
+}
+{
+  "name":"unpublishedTech",
+  "ring": "Adopt",
+  "category": "Platforms",
+  "descriptionTechnology": "this is a description of the technology",
+  "descriptionOnRing": "this is a description on why this caterogy was chosen for this technology",
+  "publishDate": "",
+  "datesEdited": []
+}
